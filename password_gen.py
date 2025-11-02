@@ -9,9 +9,11 @@
 # ensure we have at least one of each character type 
 # ensure length is valid
 
+""""imports random and string modules to use their functionality"""
 import random
 import string
 
+""""main function"""
 def password_gen():
     length = int(input("enter the desired password length: ").strip().lower())
     include_uppercase = input("include uppercase letters? (yes/no): ").strip().lower()
